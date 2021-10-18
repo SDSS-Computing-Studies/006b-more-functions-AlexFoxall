@@ -14,19 +14,21 @@ assert btcTocad(1) == 45000
 (2 points) 
 """
 
+
 def btcTocad(x):
     pass
     x = float(x)
-    x = x * 45000
-    return x
-
-print(btcTocad(1))
-    
-
-
+    currBTC = x * 45000
+    return currBTC
 
 if __name__ == "__main__":
+    x = input("enter amount of Bitcoins")
+    print(btcTocad(x))
     assert btcTocad(1) == 45000
+
+
+
+
 
 
 
